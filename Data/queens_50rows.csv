@@ -1,0 +1,50 @@
+BOROUGH,NEIGHBORHOOD,BUILDING CLASS CATEGORY,TAX CLASS AT PRESENT,BLOCK,LOT,EASE-MENT,BUILDING CLASS AT PRESENT,ADDRESS,APARTMENT NUMBER,ZIP CODE,RESIDENTIAL UNITS,COMMERCIAL UNITS,TOTAL UNITS,LAND SQUARE FEET,GROSS SQUARE FEET,YEAR BUILT,TAX CLASS AT TIME OF SALE,BUILDING CLASS AT TIME OF SALE, SALE PRICE ,SALE DATE
+4,AIRPORT JFK              ,31  COMMERCIAL VACANT LAND                  ,4,14260,70, ,V1,181-25 EASTERN ROAD                      ,            ,11430,0,0,0,223027,0,0,4,V1," $7,800,000 ",1/14/2016
+4,AIRPORT LA GUARDIA       ,01  ONE FAMILY DWELLINGS                    ,1,976,13, ,A5,21-16 81ST   STREET                      ,            ,11370,1,0,1,1800,1224,1950,1,A5," $620,000 ",10/6/2015
+4,AIRPORT LA GUARDIA       ,03  THREE FAMILY DWELLINGS                  ,1,949,51, ,C0,19-79 80TH STREET                        ,            ,11370,3,0,3,2000,2635,1945,1,C0, $-   ,6/26/2015
+4,AIRPORT LA GUARDIA       ,03  THREE FAMILY DWELLINGS                  ,1,949,52, ,C0,19-77 80TH STREET                        ,            ,11370,3,0,3,2000,2835,1945,1,C0, $-   ,8/13/2015
+4,AIRPORT LA GUARDIA       ,03  THREE FAMILY DWELLINGS                  ,1,976,38, ,C0,21-66 81ST STREET                        ,            ,11370,3,0,3,2100,2016,1950,1,C0, $-   ,12/15/2015
+4,AIRPORT LA GUARDIA       ,39  TRANSPORTATION FACILITIES               ,4,926,1, ,T1,83-00 23RD   AVENUE                      ,            ,11370,0,4,4,29305534,2949024,1933,4,T1, $-   ,7/22/2015
+4,ARVERNE                  ,01  ONE FAMILY DWELLINGS                    ,1,15828,53, ,A1,303 BEACH 38TH STREET                    ,            ,11691,1,0,1,3810,1200,2002,1,A1," $273,710 ",2/29/2016
+4,ARVERNE                  ,01  ONE FAMILY DWELLINGS                    ,1,15830,42, ,A2,341 BEACH 40TH STREET                    ,            ,11691,1,0,1,1766,1521,1920,1,A2, $-   ,2/8/2016
+4,ARVERNE                  ,01  ONE FAMILY DWELLINGS                    ,1,15837,17, ,A6,334 BEACH 46 STREET                      ,            ,11691,1,0,1,3804,745,1925,1,A6," $289,000 ",1/19/2016
+4,ARVERNE                  ,01  ONE FAMILY DWELLINGS                    ,1,15837,17, ,A6,334 BEACH 46 STREET                      ,            ,11691,1,0,1,3804,745,1925,1,A6," $69,000 ",5/21/2015
+4,ARVERNE                  ,01  ONE FAMILY DWELLINGS                    ,1,15838,11, ,A6,334 BEACH 47 STREET                      ,            ,11691,1,0,1,1902,720,1920,1,A6," $57,000 ",8/14/2015
+4,ARVERNE                  ,01  ONE FAMILY DWELLINGS                    ,1,15905,16, ,A5,64-14 BEACH FRONT ROAD                   ,            ,11692,1,0,1,3542,3084,2014,1,A5," $941,881 ",9/30/2015
+4,ARVERNE                  ,01  ONE FAMILY DWELLINGS                    ,1,15905,30, ,A5,62-13 OCEAN AVENUE SOUTH                 ,            ,11692,1,0,1,3959,2515,2014,1,A5," $824,782 ",8/18/2015
+4,ARVERNE                  ,01  ONE FAMILY DWELLINGS                    ,1,15905,47, ,A5,123 BEACH 62 STREET                      ,            ,11692,1,0,1,4414,2626,2014,1,A5," $728,048 ",10/29/2015
+4,ARVERNE                  ,01  ONE FAMILY DWELLINGS                    ,1,15905,91, ,A5,151 COMPASS PLACE                        ,            ,11692,1,0,1,3665,2515,2014,1,A5," $661,862 ",6/24/2015
+4,ARVERNE                  ,01  ONE FAMILY DWELLINGS                    ,1,15905,185, ,A5,63-07 OCEAN AVENUE NORTH                 ,            ,11692,1,0,1,3045,2515,2014,1,A5," $692,410 ",9/17/2015
+4,ARVERNE                  ,01  ONE FAMILY DWELLINGS                    ,1,15905,307, ,A5,66-14 BEACH FRONT ROAD                   ,            ,11692,1,0,1,3542,3084,2014,1,A5," $1,120,075 ",3/2/2016
+4,ARVERNE                  ,01  ONE FAMILY DWELLINGS                    ,1,15908,28, ,A2,311 BEACH 63RD STREET                    ,            ,11692,1,0,1,4200,975,1940,1,A2," $310,000 ",10/2/2015
+4,ARVERNE                  ,01  ONE FAMILY DWELLINGS                    ,1,15915,50, ,A2,67-11 BEACH CHANNEL DRIVE                ,            ,11692,1,0,1,3333,1217,1955,1,A2," $281,000 ",5/28/2015
+4,ARVERNE                  ,01  ONE FAMILY DWELLINGS                    ,1,15916,41, ,A1,346 BEACH 69TH STREET                    ,            ,11692,1,0,1,4000,1971,1920,1,A1," $420,000 ",2/2/2016
+4,ARVERNE                  ,01  ONE FAMILY DWELLINGS                    ,1,15962,48, ,A6,593 BEACH 43RD STREET                    ,            ,11691,1,0,1,1824,528,1920,1,A6," $229,164 ",4/13/2016
+4,ARVERNE                  ,01  ONE FAMILY DWELLINGS                    ,1,15962,50, ,A6,589 BEACH 43 STREET                      ,            ,11691,1,0,1,2557,528,1920,1,A6," $30,500 ",10/12/2015
+4,ARVERNE                  ,01  ONE FAMILY DWELLINGS                    ,1,15962,61, ,A9,565 BEACH 43RD STREET                    ,            ,11691,1,0,1,5796,1300,1920,1,A9," $289,000 ",6/19/2015
+4,ARVERNE                  ,01  ONE FAMILY DWELLINGS                    ,1,15963,46, ,A6,44-02 NORTON AVENUE                      ,            ,11691,1,0,1,1275,595,1925,1,A6," $183,700 ",12/1/2015
+4,ARVERNE                  ,01  ONE FAMILY DWELLINGS                    ,1,15965,27, ,A6,448 BEACH 44 STREET                      ,            ,11691,1,0,1,1735,846,1899,1,A6," $70,980 ",9/25/2015
+4,ARVERNE                  ,01  ONE FAMILY DWELLINGS                    ,1,15965,110, ,A2,417 BEACH 43 STREET                      ,            ,11691,1,0,1,2907,720,1910,1,A2," $140,000 ",10/16/2015
+4,ARVERNE                  ,01  ONE FAMILY DWELLINGS                    ,1,15965,110, ,A2,417 BEACH 43 STREET                      ,            ,11691,1,0,1,2907,720,1910,1,A2," $80,000 ",6/8/2015
+4,ARVERNE                  ,01  ONE FAMILY DWELLINGS                    ,1,15966,14, ,A6,462 BEACH 45 STREET                      ,            ,11691,1,0,1,1825,525,1905,1,A6," $149,000 ",10/13/2015
+4,ARVERNE                  ,01  ONE FAMILY DWELLINGS                    ,1,15968,3, ,A6,378 BEACH 46 STREET                      ,            ,11691,1,0,1,3804,950,1920,1,A6," $150,000 ",8/7/2015
+4,ARVERNE                  ,01  ONE FAMILY DWELLINGS                    ,1,15969,13, ,A6,426 BEACH 47 STREET                      ,            ,11691,1,0,1,2252,480,1940,1,A6," $91,260 ",9/30/2015
+4,ARVERNE                  ,01  ONE FAMILY DWELLINGS                    ,1,15969,46, ,A6,471 BEACH 46TH STREET                    ,            ,11691,1,0,1,2473,540,1940,1,A6," $169,000 ",8/18/2015
+4,ARVERNE                  ,01  ONE FAMILY DWELLINGS                    ,1,15969,55, ,A2,447 BEACH 46 STREET                      ,            ,11691,1,0,1,2300,900,1940,1,A2," $297,000 ",12/2/2015
+4,ARVERNE                  ,01  ONE FAMILY DWELLINGS                    ,1,16025,3, ,A2,65-39 BAYFIELD AVENUE                    ,            ,11692,1,0,1,3500,1155,1925,1,A2," $304,000 ",9/10/2015
+4,ARVERNE                  ,01  ONE FAMILY DWELLINGS                    ,1,16026,22, ,A9,642 BEACH 66TH STREET                    ,            ,11692,1,0,1,2250,1530,1960,1,A9," $310,000 ",7/24/2015
+4,ARVERNE                  ,01  ONE FAMILY DWELLINGS                    ,1,16029,1, ,A2,602 BEACH 69 STREET                      ,            ,11692,1,0,1,3800,1119,1920,1,A2, $-   ,12/17/2015
+4,ARVERNE                  ,01  ONE FAMILY DWELLINGS                    ,1,16031,12, ,A9,5-28 BEACH 65 STREET                     ,            ,11692,1,0,1,2500,1925,1960,1,A9," $263,000 ",9/22/2015
+4,ARVERNE                  ,01  ONE FAMILY DWELLINGS                    ,1,16032,36, ,A5,5-67 BEACH 65 STREET                     ,            ,11692,1,0,1,3950,2008,1955,1,A5," $338,000 ",2/8/2016
+4,ARVERNE                  ,01  ONE FAMILY DWELLINGS                    ,1,16033,72, ,A1,66-08 THURSBY AVENUE                     ,            ,11692,1,0,1,2500,1137,1930,1,A1," $199,000 ",9/21/2015
+4,ARVERNE                  ,01  ONE FAMILY DWELLINGS                    ,1,16034,18, ,A9,5-38 BEACH 68 STREET                     ,            ,11692,1,0,1,2800,1386,1950,1,A9," $20,000 ",7/14/2015
+4,ARVERNE                  ,01  ONE FAMILY DWELLINGS                    ,1,16034,18, ,A9,538 BEACH 68TH STREET                    ,            ,11692,1,0,1,2800,1386,1950,1,A9," $458,000 ",6/8/2015
+4,ARVERNE                  ,01  ONE FAMILY DWELLINGS                    ,1,16034,38, ,A1,67-01 ALMEDA AVENUE                      ,            ,11692,1,0,1,2000,1120,1930,1,A1," $200,000 ",10/29/2015
+4,ARVERNE                  ,01  ONE FAMILY DWELLINGS                    ,1,16037,24, ,A9,440 BEACH 64 STREET                      ,            ,11692,1,0,1,2550,1365,1940,1,A9, $-   ,6/20/2015
+4,ARVERNE                  ,01  ONE FAMILY DWELLINGS                    ,1,16038,39, ,A9,64-03 THURSBY AVENUE                     ,            ,11692,1,0,1,1800,1530,1960,1,A9," $250,000 ",10/9/2015
+4,ARVERNE                  ,01  ONE FAMILY DWELLINGS                    ,1,16040,1, ,A2,408 BEACH 67 STREET                      ,            ,11692,1,0,1,4000,702,1910,1,A2," $300,000 ",6/10/2015
+4,ARVERNE                  ,01  ONE FAMILY DWELLINGS                    ,1,16042,22, ,A1,446 BEACH 69TH STREET                    ,            ,11692,1,0,1,4000,2416,1910,1,A1," $135,000 ",11/23/2015
+4,ARVERNE                  ,01  ONE FAMILY DWELLINGS                    ,1,16049,3, ,A2,69-49 BURCHELL AVENUE                    ,            ,11692,1,0,1,3000,1632,1960,1,A2," $299,000 ",9/8/2015
+4,ARVERNE                  ,01  ONE FAMILY DWELLINGS                    ,1,16049,8, ,A0,69-35 BURCHELL AVENUE                    ,            ,11692,1,0,1,8000,1418,1950,1,A0, $-   ,7/8/2015
+4,ARVERNE                  ,01  ONE FAMILY DWELLINGS                    ,1,16052,27, ,A5,443 BEACH 69TH STREET                    ,            ,11692,1,0,1,3250,1530,2005,1,A5," $380,000 ",1/15/2016
+4,ARVERNE                  ,01  ONE FAMILY DWELLINGS                    ,1,16052,28, ,A5,441 BEACH 69TH STREET                    ,            ,11692,1,0,1,1500,1530,2005,1,A5," $285,000 ",10/27/2015
