@@ -7,6 +7,8 @@
 #  Date : 5/31/2016
 ###################################################################
 
+## @knitr CorrectingDataTypes
+
 # Setting current working directory to data directory.
 setwd("../Data")
 
@@ -17,10 +19,13 @@ raw_df <- read.csv("RawSalesDataQueens.csv", header=T, quote="\"", fill=TRUE, st
 
 # File loaded to raw_df Data Frame.
 # Rowcount :
-nrow(raw_df)
+#nrow(raw_df)
 
 # Columns :
-ncol(raw_df)
+#ncol(raw_df)
+
+#class(raw_df$SALE.PRICE)
+#class(raw_df$SALE.DATE)
 
 # Below line is converting SALE.DATE column to date format.
 # Since the input data contains date in MM/DD/YYYY format, format parameter is used to indicate the same.
@@ -43,14 +48,16 @@ raw_df$SALE.PRICE <- as.integer(raw_df$SALE.PRICE)
 
 
 # Checking class of all fields using sapply to all fields in DF.
-sapply(raw_df, class)
+#sapply(raw_df, class)
+class(raw_df$SALE.PRICE)
+class(raw_df$SALE.DATE)
 
 # Counting total rows in DF.
-nrow(raw_df)
+#nrow(raw_df)
 
 
 #Get current directory before writing file
-getwd()
+#getwd()
 
 
 #Writing data-frame to final file that will be used for handling missing values and outliers

@@ -1,0 +1,58 @@
+---
+title: "Graphs and Plots"
+author: "VAhir"
+date: "May 31, 2016"
+output: 
+  html_document:
+    keep_md: TRUE
+---
+
+**Step 1**  
+First step in this RMD file is to correct the data type of couple of  columns in input file.  
+Here class output for Sale Price and Sale Date are printed before and after the handling.
+
+```{r setup1, echo=F}
+library(knitr)
+setwd("../Analysis")
+opts_chunk$set(echo = FALSE, cache=FALSE)
+read_chunk('CorrectingDataTypes.R')
+```
+
+```{r CorrectingDataTypes}
+
+```
+  
+**Step 2**  
+Next part will create a final file that will be ready for analysis. 
+You should be able to see "FinalQueensData.csv" in Data folder after this step.  
+
+```{r setup2, echo=F}
+library(knitr)
+setwd("../Analysis")
+opts_chunk$set(echo = FALSE, cache=FALSE)
+read_chunk('RemovingOutliers.R')
+```
+
+```{r RemovingOutliers}
+
+```
+
+**Step 3**  
+Now that the final file is present for creating charts/graphs, we will generate first plot.
+
+```{r}
+
+# Print current working directory
+getwd()
+
+# Setting current working directory to "Data" so we can access data file after modifications
+setwd("../Data")
+
+# Loading csv file to a data.frame.
+raw_df <- read.csv("FinalQueensData.csv", header=T, quote="\"", fill=TRUE, stringsAsFactors = FALSE)
+
+# Plotting a Price vs Sq Ft chart
+plot(raw_df$SALE.PRICE, raw_df$GROSS.SQUARE.FEET, main= "Price vs SQ FT", xlab ="Price", ylab="SQ FT")
+
+```
+

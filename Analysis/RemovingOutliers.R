@@ -7,6 +7,8 @@
 #  Date : 5/31/2016
 ###################################################################
 
+## @knitr RemovingOutliers
+
 # Setting current working directory to data directory.
 setwd("../Data")
 
@@ -17,10 +19,10 @@ raw_df <- read.csv("CorrectedDateandPrice.csv", header=T, quote="\"", fill=TRUE,
 
 # File loaded to raw_df Data Frame.
 # Rowcount :
-nrow(raw_df)
+#nrow(raw_df)
 
 # Columns :
-ncol(raw_df)
+#ncol(raw_df)
 
 # Filter all the rows in data frame where SalePrice is > 2,000,000 and/or 0.
 raw_df <- raw_df[raw_df$SALE.PRICE <= 2000000 & raw_df$SALE.PRICE > 0, ]

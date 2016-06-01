@@ -44,6 +44,8 @@ File Name :
 
 
 
+** Graphs and Charts **
+../Paper directory also contains a Rmd file that creates a couple of charts/bar graphs.
 
 
               
