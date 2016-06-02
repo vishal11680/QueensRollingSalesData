@@ -31,7 +31,7 @@ raw_df <- raw_df[raw_df$SALE.PRICE <= 2000000 & raw_df$SALE.PRICE > 0, ]
 raw_df <- raw_df[raw_df$GROSS.SQUARE.FEET <= 1000 & raw_df$GROSS.SQUARE.FEET > 0, ]
 
 #Check remaining number of rows
-nrow(raw_df)
+#nrow(raw_df)
 
 # Get the current wd
 getwd()

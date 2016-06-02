@@ -50,9 +50,41 @@ setwd("../Data")
 
 # Loading csv file to a data.frame.
 raw_df <- read.csv("FinalQueensData.csv", header=T, quote="\"", fill=TRUE, stringsAsFactors = FALSE)
+raw_df$SALE.PRICE <- as.integer(raw_df$SALE.PRICE)
+raw_df$SALE.DATE <- as.Date(raw_df$SALE.DATE)
+
 
 # Plotting a Price vs Sq Ft chart
-plot(raw_df$SALE.PRICE, raw_df$GROSS.SQUARE.FEET, main= "Price vs SQ FT", xlab ="Price", ylab="SQ FT")
+plot(raw_df$SALE.PRICE, raw_df$GROSS.SQUARE.FEET, main= "Queens Price vs SQ FT", xlab ="Price", ylab="SQ FT")
 
 ```
 
+
+**Step 4**  
+Here we are creating a simple horizontal bar chart for dollar amount of properties sold.  
+  
+```{r}
+
+
+# Print current working directory
+getwd()
+
+# Setting current working directory to "Data" so we can access data file after modifications
+setwd("../Data")
+
+# Loading csv file to a data.frame.
+raw_df <- read.csv("FinalQueensData.csv", header=T, quote="\"", fill=TRUE, stringsAsFactors = FALSE)
+
+# Converting data types for sale price and sale date.
+raw_df$SALE.PRICE <- as.integer(raw_df$SALE.PRICE)
+raw_df$SALE.DATE <- as.Date(raw_df$SALE.DATE)
+
+sale.price <- raw_df$SALE.PRICE/100
+sq.ft <- raw_df$gross.square.feet/10
+
+sale.price <-as.integer(sale.price)
+sq.ft <- as.integer(sq.ft)
+
+barplot(sale.price, main="Queens Sale Price", xlab="Dollar Amount in Thousands", horiz=TRUE, names.arg=c("Properties Sold"))
+
+```

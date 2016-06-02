@@ -17,7 +17,7 @@ Here class output for Sale Price and Sale Date are printed before and after the 
 ## [1] "Date"
 ```
   
-** Step 2**  
+**Step 2**  
 Next part will create a final file that will be ready for analysis. 
 You should be able to see "FinalQueensData.csv" in Data folder after this step.  
 
@@ -42,3 +42,13 @@ Now that the final file is present for creating charts/graphs, we will generate 
 
 ![](GraphsPlots_files/figure-html/unnamed-chunk-1-1.png)<!-- -->
 
+
+**Step 4**  
+Here we are creating a simple horizontal bar chart for dollar amount of properties sold.  
+  
+
+```
+## [1] "C:/Users/vishal/Desktop/SMU/Unit3and4Assignment/QueensRollingSalesDataAnalysis/Paper"
+```
+
+![](GraphsPlots_files/figure-html/unnamed-chunk-2-1.png)<!-- -->
