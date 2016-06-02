@@ -125,10 +125,10 @@ $(document).ready(function () {
 
 <p><strong>What</strong><br />
 The purpose of this project is to provide insights into rolling sales data from 1 of the five boroughs of NYC - <em>Queens</em>. Following transformation/formatting was done on this data :<br />
- + a) Sale Date column was converted to “YYYY-MM-DD” format and Date data type.<br />
- + b) Sale Price was modified to exclude “$”, “,” and “-” and converted to integer type.<br />
- + c) Records with missing sale price were identified and excluded.<br />
- + d) Outliers were identified and excluded.</p>
+ a) Sale Date column was converted to “YYYY-MM-DD” format and Date data type.<br />
+ b) Sale Price was modified to exclude “$”, “,” and “-” and converted to integer type.<br />
+ c) Records with missing sale price were identified and excluded.<br />
+ d) Outliers were identified and excluded.</p>
 <p><strong>Directory Structure</strong><br />
 Following is the directory structure for this project:</p>
 <pre><code>         Root --&gt; README.md
@@ -149,7 +149,8 @@ The final output data file “FinalQueensData.csv” will be then be used for va
 <p>File Name :<br />
 <strong>./Analysis/CorrectingDataTypes.R</strong><br />
 <strong>./Analysis/RemovingOutliers.R</strong></p>
-<p>** Graphs and Charts ** ../Paper directory also contains a Rmd file that creates a couple of charts/bar graphs.</p>
+<p><strong>Graphs and Charts</strong><br />
+../Paper directory also contains GraphsPlots.Rmd file that creates various charts/bar graphs using processed data.</p>
 
 
 

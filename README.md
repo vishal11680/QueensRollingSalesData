@@ -5,10 +5,10 @@ May 27, 2016
 **What**   
 The purpose of this project is to provide insights into rolling sales data from 1 of the five boroughs of NYC - *Queens*.
 Following transformation/formatting was done on this data :  
-  + a)  Sale Date column was converted to "YYYY-MM-DD" format and Date data type.  
-  + b)  Sale Price was modified to exclude "$", "," and "-" and converted to integer type.  
-  + c)  Records with missing sale price were identified and excluded.  
-  + d)  Outliers were identified and excluded.  
+   a)  Sale Date column was converted to "YYYY-MM-DD" format and Date data type.  
+   b)  Sale Price was modified to exclude "$", "," and "-" and converted to integer type.  
+   c)  Records with missing sale price were identified and excluded.  
+   d)  Outliers were identified and excluded.  
 
 **Directory Structure**  
 Following is the directory structure for this project:  
@@ -40,8 +40,8 @@ File Name :
 
 
 
-** Graphs and Charts **
-../Paper directory also contains a Rmd file that creates a couple of charts/bar graphs.
+**Graphs and Charts**  
+../Paper directory also contains GraphsPlots.Rmd file that creates various charts/bar graphs using processed data.  
 
 
               
